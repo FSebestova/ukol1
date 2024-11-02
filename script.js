@@ -4,7 +4,7 @@ const jmeno = prompt("Zadejte křestní jméno: ")
 const zkracenePrijmeni = prijmeni.trim().slice(0,5).toLowerCase()
 const zkraceneJmeno = jmeno.trim().slice(0,3).toLowerCase()
 
-document.body.innerHTML += `<p>Tvůj email je: ${zkracenePrijmeni}${zkraceneJmeno}@fit.cvut.cz</p>`;
+document.body.innerHTML += `<p>Tvůj email je: ${zkracenePrijmeni}${zkraceneJmeno}@fit.cvut.cz</p>`
 
 //Tento kod funguje ale není v rámci úkolu proto jsem zakomentovala
 
